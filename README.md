@@ -11,7 +11,7 @@
 <br/>
 
 <p align="center">
-  <img src="preview.png" alt="Coverflow Menu Preview" width="880px" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" />
+  <img src="demo.gif" alt="Coverflow Menu Live Demo" width="880px" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" />
 </p>
 
 *A fluid, 3D perspective application launcher built with smoked obsidian glass aesthetics, glowing champagne gold highlights, instant fuzzy search, and smooth motion.*
@@ -43,6 +43,22 @@
 
 ---
 
+## 📸 Visual Gallery
+
+<div align="center">
+
+| Root Category Hub | Applications Carousel |
+| :---: | :---: |
+| <img src="preview.png" width="440px" alt="Root Category Hub" style="border-radius: 8px;" /> | <img src="preview-apps.png" width="440px" alt="Applications Carousel" style="border-radius: 8px;" /> |
+
+| Instant Fuzzy Search |
+| :---: |
+| <img src="preview-search.png" width="560px" alt="Instant Fuzzy Search" style="border-radius: 8px;" /> |
+
+</div>
+
+---
+
 ## 📦 Installation
 
 Install directly into your Omarchy desktop using the official plugin CLI:
@@ -61,8 +77,9 @@ omarchy plugin add https://github.com/HackerO112/omarchy-coverflow-menu.git --en
 | :--- | :--- | :--- |
 | <kbd>Super</kbd> / <kbd>Meta</kbd> | Global | Toggle 3D Coverflow Launcher |
 | <kbd>←</kbd> / <kbd>→</kbd> | Carousel | Navigate through cards in 3D perspective |
-| <kbd>Enter</kbd> / <kbd>Return</kbd> | Active Card | Launch selected application |
+| <kbd>Enter</kbd> / <kbd>Return</kbd> | Active Card | Launch selected application or open category |
 | Any Keystroke | Menu | Instantly focus and filter via fuzzy search |
+| <kbd>Backspace</kbd> | Search / Menu | Erase query or go back to parent view |
 | <kbd>Esc</kbd> | Menu | Dismiss launcher |
 
 ---
@@ -77,9 +94,9 @@ Built completely native for **Omarchy** and **Quickshell**:
 
 ---
 
-## 🔄 Updating
+## 🔄 Updating & Removal
 
-To pull the latest updates and improvements:
+To pull the latest updates:
 
 ```bash
 omarchy plugin update nothing.menu
@@ -95,7 +112,7 @@ omarchy plugin remove nothing.menu
 
 <div align="center">
 
-Made with craftsmanship for the **Omarchy** community.
+Crafted with care for the **Omarchy** community.
 
 **[Browse on Omarchy Marketplace](https://plugins.omarchy.org)**
 
