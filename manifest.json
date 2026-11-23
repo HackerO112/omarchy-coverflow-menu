@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nothing.menu",
+  "name": "Coverflow Menu",
+  "version": "1.0.0",
+  "author": "nothing",
+  "description": "3D perspective coverflow application launcher with fuzzy search and glass aesthetics.",
+  "kinds": [
+    "menu",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "menu": "Menu.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Coverflow Menu",
+    "description": "Launches the 3D coverflow application launcher",
+    "category": "Compositor",
+    "allowMultiple": false
+  }
+}
