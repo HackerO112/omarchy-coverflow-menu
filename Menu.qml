@@ -1326,7 +1326,7 @@ Item {
         } else if (event.key === Qt.Key_PageDown) {
           root.select(5)
           event.accepted = true
-        } else if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter || event.key === Qt.Key_Space) {
+        } else if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
           if (root.dmenuActive) {
             if (root.mode === "input") root.applyDmenuSelection(root.filterText)
             else if (displayModel.count > 0) root.activateIndex(root.selectedIndex)
